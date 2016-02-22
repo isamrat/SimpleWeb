@@ -18,6 +18,14 @@ public class UserDao {
 		userList.add(usr4);
 		return userList;
 	}
+	public String users() {
+		ArrayList<User> user = createUser();
+		String user_details = "";
+		for (User u : user) {
+			user_details = user_details +" "+ u.getName() +" "+ u.getPhn() + "\n";
+		}
+		return user_details;
+	}
 	public String about(){
 		return "Tata Consultancy Services (TCS) is one of the world's leading information technology companies. Through its Global Network Delivery ModelTM, Innovation Network, and Solution Accelerators, TCS focuses on helping global organizations address their business challenges effectively.";
 	}
