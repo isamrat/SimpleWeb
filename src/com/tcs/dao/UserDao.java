@@ -7,7 +7,7 @@ import com.tcs.bean.User;
 public class UserDao {
 	
 	public ArrayList<User> createUser(){
-		User usr1 = new User("abc","123","Samrat","8981846524");
+		User usr1 = new User("sam","123","Samrat","8981846524");
 		User usr2 = new User("xyz","789","Niladri","9679797051");
 		User usr3 = new User("mnc","137","Meenakshi","8961183104");
 		User usr4 = new User("arnab","420","Arnab","8981191464");
